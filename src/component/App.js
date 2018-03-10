@@ -9,6 +9,8 @@ export default class App extends Component {
 
       <h1>Hello form App component</h1>
 
+      <i className='fa fa-home'></i>
+
     </div>);
 
   }
