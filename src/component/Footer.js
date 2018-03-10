@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import FontAwesome from '@fortawesome/react-fontawesome'
 
 import '../styles/Footer.css';
 
@@ -15,9 +14,10 @@ export default class Footer extends Component {
       </div>
 
       <div id='icons'>
-        <FontAwesome name='github' />
-        <FontAwesome name='rocket' />
-        <FontAwesome name='home' />
+        <i className='fab fa-2x fa-github' />
+        <i className='fab fa-2x fa-facebook' />
+        <i className='fab fa-2x fa-codepen' />
+        <i className='fa fa-2x fa-at' />
       </div>
 
     </div>);

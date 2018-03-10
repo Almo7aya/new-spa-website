@@ -23,4 +23,12 @@
     background-color: rebeccapurple;
 }
 
-.Footer div#icons {}
+.Footer div#icons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Footer div#icons svg {
+    margin: 0 4px;
+    display: inline-block;
+}
