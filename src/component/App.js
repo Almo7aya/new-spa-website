@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import ProfileImg from './ProfileImg'
+import ProfileImg from './ProfileImg';
+import HeaderSection from './HeaderSection';
 
 import '../styles/App.css';
 
@@ -13,6 +14,8 @@ export default class App extends Component {
     return (<div className='App'>
 
       <ProfileImg src={imageSrc} />
+
+      <HeaderSection />
 
     </div>);
 
