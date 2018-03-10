@@ -7,7 +7,7 @@ export default class Footer extends Component {
   render() {
     return (<div className='Footer'>
 
-      <div id='inter'>kl
+      <div id='inter'>
         <span></span>
         <span></span>
       </div>

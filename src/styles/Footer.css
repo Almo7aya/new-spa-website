@@ -1,7 +1,26 @@
-.Footer {}
+.Footer {
+    width: 100%;
+    margin-top: 10px;
+}
 
 .Footer div#inter {
-    background-color: red;
+    background-color: lightslategrey;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Footer div#inter span {
+    background-color: plum;
+    width: 50px;
+    height: 100%;
+}
+
+.Footer div#inter span:last-of-type {
+    width: 50px;
+    margin-right: 40px;
+    background-color: rebeccapurple;
 }
 
 .Footer div#icons {}
