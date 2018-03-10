@@ -1,0 +1,17 @@
+.HeaderSection {
+    width: 300px;
+}
+
+.HeaderSection h3 {
+    font-size: 1.2em;
+    margin: 2px 0 2px 25px;
+}
+
+.HeaderSection p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.HeaderSection p:last-of-type {
+    margin-left: 2px;
+}
