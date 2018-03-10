@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 
-export default class App extends Component {
+import ProfileImg from './ProfileImg'
 
+import '../styles/App.css';
+
+export default class App extends Component {
 
   render() {
 
-    return (<div>
+    const imageSrc = 'https://avatars0.githubusercontent.com/u/17254073?s=460&v=4';
 
-      <h1>Hello form App component</h1>
+    return (<div className='App'>
 
-      <i className='fa fa-home'></i>
+      <ProfileImg src={imageSrc} />
 
     </div>);
 
