@@ -14,10 +14,18 @@ export default class Footer extends Component {
       </div>
 
       <div id='icons'>
-        <i className='fab fa-2x fa-github' />
-        <i className='fab fa-2x fa-facebook' />
-        <i className='fab fa-2x fa-codepen' />
-        <i className='fa fa-2x fa-at' />
+        <a target='_target' href='https://github.com/almo7aya' >
+          <i className='fab fa-2x fa-github' />
+        </a>
+        <a target='_target' href='https://fb.com/almo7aya' >
+          <i className='fab fa-2x fa-facebook' />
+        </a>
+        <a target='_target' href='https://codepen.io/almo7aya' >
+          <i className='fab fa-2x fa-codepen' />
+        </a>
+        <a target='_target' href='mailto:alialmohaya@gmail.com' >
+          <i className='fa fa-2x fa-at' />
+        </a>
       </div>
 
     </div>);
