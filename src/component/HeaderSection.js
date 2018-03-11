@@ -18,10 +18,3 @@ export default class HeaderSection extends Component {
   }
 
 }
-
-
-const aboutMe = {
-  name: 'Ali Almohaya',
-  skills: 'Web Dev/Des',
-  dayOfBirth: '1996/12/15',
-};
