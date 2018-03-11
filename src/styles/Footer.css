@@ -4,7 +4,7 @@
 }
 
 .Footer div#inter {
-    background-color: #777777;
+    background-color: #abb5ad;
     height: 20px;
     display: flex;
     flex-direction: row;
@@ -12,7 +12,7 @@
 }
 
 .Footer div#inter span {
-    background-color: #a50000;
+    background-color: #df3d38;
     width: 130px;
     height: 100%;
 }
@@ -30,5 +30,5 @@
 .Footer div#icons svg {
     margin: 0 4px;
     display: inline-block;
-    color: #a50000;
+    color: #df3d38;
 }
