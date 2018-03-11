@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,8 +9,10 @@ body {
     background-color: #1d292d;
     color: #fff;
     font-size: 16px;
+    height: 100%;
 }
 
 #root {
     overflow: hidden;
+    height: 100%;
 }
