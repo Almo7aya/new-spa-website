@@ -1,8 +1,13 @@
 .Tags {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     color: #777777;
     font-weight: 900;
     width: 100%;
+}
+
+.Tags p {
+    margin: 0;
+    padding: 2px 3px;
 }
