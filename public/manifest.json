@@ -2,7 +2,7 @@
   "short_name": "Ali Almohaya",
   "name": "Ali Almohaya SPA",
   "icons": [{
-    "src": "favicon.ico",
+    "src": "fav_big.png",
     "sizes": "144x144",
     "type": "image/png"
   }],
