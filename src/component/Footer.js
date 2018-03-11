@@ -23,6 +23,9 @@ export default class Footer extends Component {
         <a target='_target' href='https://codepen.io/almo7aya' >
           <i className='fab fa-2x fa-codepen' />
         </a>
+        <a target='_target' href='https://medium.com/@alialmohaya' >
+          <i className='fab fa-2x fa-medium' />
+        </a>
         <a target='_target' href='mailto:alialmohaya@gmail.com' >
           <i className='fa fa-2x fa-at' />
         </a>

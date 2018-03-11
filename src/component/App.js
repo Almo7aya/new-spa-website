@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import ProfileImg from './ProfileImg';
 import HeaderSection from './HeaderSection';
 import Footer from './Footer';
+import Tags from './Tags';
 
 import '../styles/App.css';
 
@@ -17,6 +18,8 @@ export default class App extends Component {
       <HeaderSection />
 
       <Footer />
+
+      <Tags />
 
     </div>);
 
