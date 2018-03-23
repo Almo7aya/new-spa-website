@@ -1,0 +1,381 @@
+   /*# With The Name Of Allah
+     # Ali Almohaya // Almo7aya  => https://fb.com/almo7aya
+     # 17/6/2017    
+     # Eid Sa'ed Mikrotick hotspot template */
+
+
+/* Global styles and the main classes
+############################################################### */
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+body {
+    background-color: #652D90;
+
+    /*font-family: cairo;*/
+
+    font-family: "Sukar Regular";
+
+    direction: rtl;
+}
+
+.container {
+
+    width: 90%;
+
+    margin: 0 auto;
+
+}
+
+@media screen and (min-width: 780px) {
+   
+  .container {
+
+    width: 750px;
+
+  }
+
+}
+
+.bg-white {
+    background-color: #fff;
+    background-image: url('../imgs/theme.svg');
+    background-size: 14%;
+}
+
+.text-white {
+    color: #fff;
+    
+}
+
+.main-color {
+    color: rgb(114, 72, 146);
+    
+}
+
+.bg-main {
+    background-color: rgb(114, 72, 146);
+}
+
+
+.bg-main-90 {
+    background-color: rgba(114, 72, 146, .90);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.center-block {
+    display: block;
+    margin: auto;
+}
+
+.list-none {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    margin-bottom: 0;
+}
+
+main {
+    box-shadow: 0 0 20px 6px rgba(45, 55, 61, 0.29);
+    position: relative;
+    overflow: hidden;
+}
+
+.up {
+
+    position: fixed;
+
+    bottom: 15px;
+
+    right: -50px;
+
+    z-index: 99;
+
+    padding: 4px 5px;
+    display: block;
+    cursor: pointer;
+
+    transition: all .6s;
+	
+	border-radius: 3px;
+
+}
+
+.up.show {
+
+    right: 15px;
+
+}
+
+/* Zarkesh
+############################################################### */
+.zarkesh img {
+    padding-top: 20px;
+        
+    transition: all 300ms;
+}
+
+.stars,
+.fanos {
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.stars img,
+.fanos img, {
+    margin: auto;
+    overflow: hidden;
+    
+    transition: all 300ms;
+
+}
+
+.stars img:hover,
+.fanos img:hover,
+.zarkesh img:hover {
+    
+    filter: grayscale(1);
+    
+}
+
+.stars img {
+    width: 200px;
+}
+@media screen and (min-width: 780px) {
+    .stars img {
+        width: 200px;
+    }
+}
+
+/* Header and nav bar styles
+############################################################### */
+
+header.header {
+    overflow: hidden;
+}
+
+
+header.header h1 {
+
+    font-size: 55px;
+
+    margin: 6px;
+
+}
+
+/* navbar =====
+*/
+
+nav.nav {
+    
+}
+
+
+nav.nav ul {
+
+
+}
+
+
+nav.nav ul li {
+
+    padding: 10px 9px;
+
+    display: inline-block;
+
+    cursor: pointer;
+
+    border-right:1px solid #592680;
+
+}
+
+nav.nav ul li:last-of-type {
+    border-right:1px solid #592680;
+    border-left:1px solid #592680;
+}
+
+
+/* Login form
+############################################################### */
+
+section.login {
+
+
+
+}
+
+section.login form input {
+
+    display: block;
+
+    margin: 20px auto;
+
+    padding: 10px 10px;
+
+
+    color: #fff;
+
+    border: 1px solid #652D90;
+
+    font-family: cairo;
+
+    border-radius: 5px;
+
+
+    font-family: "Sukar Regular";
+	
+	outline: none;
+
+}
+
+section.login form input:not([type='submit']) {
+
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+
+}
+
+section.login form input[type='submit'] {
+
+    width: 60%;
+    max-width: 200px;
+
+}
+
+
+/* Prices and main table
+############################################################### */
+
+section.prices {
+
+
+}
+
+section.prices table.main-table {
+
+    display: inline;
+}
+
+section.prices table.main-table th {
+
+    padding: 15px 10px;
+    background-color: rgba(114, 72, 146, 1);
+
+    border-radius: 6px;
+
+}
+
+section.prices table.main-table td {
+
+    padding: 10px;
+    background-color: rgba(114, 72, 146, .90);
+    border-radius: 6px;
+}
+
+@media screen and (min-width: 780px) {
+   
+    section.prices table.main-table th {
+        padding: 15px 20px;
+    }
+
+    section.prices table.main-table td {
+        padding: 10px 20px;
+    }
+
+}
+
+/* sell-points
+############################################################### */ 
+
+article.sell-points {
+
+
+}
+
+
+article.sell-points ul li {
+
+    margin: 7px;
+    padding: 10px 35px;
+    display: inline-block;
+    min-width: 250px;
+    background-color: rgba(114, 72, 146, .90);
+    border-radius: 6px;
+}
+
+article.sell-points ul div {
+    background-color: red;
+    padding: 20px;
+    min-width: 250px;
+    display: inline-block;
+}
+
+article.sell-points ul div.silde-top {
+    background-color: red;
+    padding: 20px;
+    min-width: 250px;
+    display: inline-block;
+}
+
+article.sell-points span {
+    padding: 10px;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* Contact
+############################################################### */ 
+
+article.contact .msg {
+
+
+    display: inline-block;
+
+    padding: 10px 30px;
+	
+	border-radius: 6px;
+
+}
+
+
+/* Footer
+############################################################### */ 
+
+footer {
+
+    margin-top: 30px;
+
+
+    overflow: hidden;
+
+}
+
+footer a, footer a:hover,
+footer a:visited, footer a:active {
+
+    color: #FFF;
+
+}
