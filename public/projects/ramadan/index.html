@@ -1,0 +1,319 @@
+<!--
+With The Name Of God
+
+_ Ali Almohaya (AKA Almo7aya) 18/May/2017 _
+_ Hotspot Temp _
+_ https://fb.com/Almo7aya _
+-->
+ 
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+	<meta charset="utf8" />
+
+	<title> رمضان كريم - شبكة المحيا </title>
+
+	<meta name="theme-color" content="#D0A071" />
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+	<!--
+
+	<link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+	-->  
+
+	<link rel="stylesheet" href="css/cairo-font.css" />
+
+	<!--add the normalize to fix the browser issus-->
+	<link href="css/normalize.css" rel="stylesheet" />
+
+	<!--The style file will auto create by ruby with sass-->
+    <link href="css/style.css" rel="stylesheet">
+
+
+  </head>
+  <body id="home">
+
+	<main>
+	  <span id="top">
+		
+		<img src="img/arrow.svg" width="23px"/>
+		  
+	  </span>
+	  
+	  <span id="stop">
+		
+		<img src="img/mute.svg" width="23px"/>
+		  
+	  </span>
+
+	  <audio id="qura" src="raw/ayah.mp3"></audio>
+	  
+	  <!--start header-->
+	  <header class="header">
+		<div class="container noborder">
+
+		  <img src="img/moon.svg" width="140px"/>
+
+		  <h1> رمضان كريم </h1>
+
+		  <p> مرحبا بكم في شبكة المحيا الاسلكية </p>
+		  
+		  <ul>
+			
+			<li> الدخول </li>
+			
+			<li> الاستراحة الرمضانية </li>
+			
+			<li> الاسعار </li>
+			
+			<li> اوقات الاذان </li>
+			
+			<li> المسبحة </li>
+			
+			<li> نقاط البيع </li>
+			
+			<li> الاذكار </li>
+			
+		  </ul>
+		  
+
+		  <p id="date"> </p>
+		  
+		</div>
+	  </header>
+	  <!--end header-->
+
+	  <!--start section-->
+	  <section class="login-form">
+		<div class="container">
+		  <h3> بيانات الدخول </h3>
+
+		  <form name="login" method="POST" id="main-form">
+			
+		    <label for="username">الرجاء ادخال الرمز الموجود تحت منطقة الكشط </label>
+		    
+		    <input type="text" name="username" id="username" placeholder="رمز الدخول"/>
+
+		    <input type="submit" value="دخول" />
+
+
+		  </form>
+		  
+		</div>
+
+	  </section>
+	  <!--end section-->
+
+	  <!-- start quran -->
+		
+	  <div class="iconWith quran">
+		<img src="img/quran.svg" width="140px"/>
+
+		<h1> رمضان شهر القرأن </h1>
+		
+		<h3> لحميل القرأن الكريم </h3>
+		
+		<button><a download="القران الكريم .pdf" href="raw/quran.pdf"> اضغط هنا </a></button>
+	  </div>
+	  
+	  <!--end quran-->
+	  
+	  <!--start the prices-->
+
+	  <article class="prices">
+
+		<div class="container">
+
+		  <h3> الاسعار </h3>
+
+		  <table id="main-table">
+
+			<tr>
+			  <th> السعر </th>
+			  <th> المدة </th>
+			  <th> الصلاحية </th>
+			  <th> التحميل </th>
+			</tr>
+
+			<tr>
+
+			  <td>100</td>
+
+			  <td> ساعتان </td>
+
+			  <td> يومان </td>
+
+			  <td> مفتوح </td>
+
+			</tr>
+
+			<tr>
+
+			  <td>100</td>
+
+			  <td> ساعتان </td>
+
+			  <td> يومان </td>
+
+			  <td> مفتوح </td>
+
+			</tr>
+
+			<tr>
+
+			  <td>100</td>
+
+			  <td> ساعتان </td>
+
+			  <td> يومان </td>
+
+			  <td> مفتوح </td>
+
+			</tr>
+
+		  </table>
+		</div>
+	  </article>
+
+	  <!--end prices-->
+		
+
+	  <div class="iconWith athdan">
+
+		<img src="img/adhan-call.svg" width="140px" />
+
+		<h1> اوقات الاذان </h1>
+		
+		<h3> يمكنك تغير المدينة من اسفل الودجيت </h3>
+		
+		<iframe name="prayertimes" 
+		  src="http://timesprayer.com/widgets.php?name=sanaa.html&amp;frame=2&amp;lang=ar&amp;sound=true&amp;avachang=true&amp;fcolor=A5605D&amp;scolor=ffffff&amp;tcolor=D5A774&amp;frcolor=B09166" 
+		  width="260" height="300" style="border: none;" scrolling="no"></iframe>
+
+	  </div>
+	  
+	  
+	  <!-- start ads  -->
+		
+		<article class="ads">
+		  
+		  <div class="container">
+			
+			<h3> مساحة اعلانية </h3>
+			
+			<img src="img/ads.jpg" width="100%" />
+			
+		  </div>
+		  
+		</article>
+		
+	  <!-- end ads -->
+	  
+		
+	  <!--start masbaha-->
+		
+	  <div class="iconWith masbaha">
+
+		<img src="img/masqed.svg" width="140px" />
+
+		<h1> رمضان شهر الغفران </h1>
+		
+		<h3> اكثر من التسبيح في نهار رمضان </h3>
+		
+		<button><a href="./masbaha.html"> لفتح المسبحة اضغط هنا </a></button>
+		
+	  </div>
+	  
+	  <!--end masbaha-->
+
+	  <!--start sell points-->
+	  <article class="sell-points">
+		
+		<span class="next">
+		  
+		  <img src="img/next.svg" width="20px" />
+		  
+		</span>
+		
+		<span class="back">
+		  
+		  <img src="img/back.svg" width="20px"/>
+		  
+		</span>
+
+		<div class="container">
+
+		  <h3> نقاط البيع </h3>
+
+		  <ul>
+
+			<li> فيسبوك </li>
+
+			<li> يوتيوب </li>
+
+			<li> امازون </li>
+
+			<li> تويتر </li>
+
+			<li> فيسبوك </li>
+
+			<li> يوتيوب </li>
+
+			<li> امازون </li>
+
+			<li> تويتر </li>
+
+			<li> فيسبوك </li>
+			
+		  </ul>
+		</div>
+	  </article>
+	  
+	  <!--end sell ponits-->
+
+      <!--start athkar-->
+		
+	  <div class="iconWith athkar">
+		<div class="container noborder">
+		  <img src="img/athkar.svg" width="140px"/>
+
+		  <h1> رمضان شهر الرحمة </h1>
+		  
+		  <h3> اذكار الصباح و اذكار المساء </h3>
+		  
+		  <button><a href="./athkar.html"> اضغط هنا للذهاب لصفحة الاذكار </a></button>
+		  
+		</div>
+	  </div>
+	  
+	  <!--end athkar-->
+
+	  <!--start footer and my name (;-->
+
+	  <footer id="fo">
+		<div class="container noborder">
+
+		  <p>Made with ♥ ↝ <a target="_blank" href="https://fb.com/Almo7aya">Ali Almohaya</a></p>
+		  
+		  <p> مصممه خصيصا للمسابقة الرمضانية الاولى </p>
+		  
+		</div>
+	  </footer>
+
+	  <!--end footer and my name (;-->
+
+	</main>
+
+	<!--add jQuery lib-->
+	<script src="js/jquery.js"></script>
+	<!--add the hijri lib-->
+	<script src="js/hijri.js"></script>
+	<!--main javascript file-->
+	<script src="js/index.js"></script>
+
+  </body>
+</html>
