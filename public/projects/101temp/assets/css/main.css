@@ -1,0 +1,182 @@
+   /*# With The Name Of Allah
+     # Ali Almohaya // Almo7aya  => https://fb.com/almo7aya
+     # 4/7/2017    
+     # 101template       */
+
+
+/* Global styles and the main classes
+############################################################### */
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FFF;
+    font-family: 'Changa', sans-serif;
+    direction: rtl;
+    background-image: url('../images/101bg.svg');
+    -webkit-background-size: 190px;
+    -moz-background-size: 190px;
+    -ms-background-size: 190px;
+    background-size: 190px;
+    
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 780px) {
+  .container {
+    width: 750px;
+  }
+}
+
+.main-color-bg {
+    background-color: #27364c;
+}
+
+.main-color {
+    color: #27364c;
+}
+
+.overflow {
+    overflow: hidden;
+}
+.overlay {
+    border: 5px solid #fff;
+    height: 100%;
+    margin: 10px;
+}
+ .center-text {
+     text-align: center;
+ }
+ .center-block {
+     margin: 0 auto;
+     display: block;
+ }
+ .center-block-table {
+     margin: 0 auto;
+ }
+
+.unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+hr {
+    margin: 40px 5px;
+}
+h2 {
+    font-size: 29px;
+}
+h1 {
+    font-size: 85px;
+}
+
+.no-border-bo {
+    border-bottom: none;
+}
+
+.no-margin-bo {
+    margin-bottom: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/*top scroll*/
+.top {
+    position: fixed;
+    bottom: -70px;
+    right: 20px;
+    padding: 10px;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+}
+.top.show {
+    bottom: 20px;
+}
+/* start header styles
+###################################################### */
+header ul li {
+    padding: 10px;
+    width: 100px;
+    display: inline-block;
+}
+/* login from styles
+###################################################### */
+.login-form input {
+    font-family: 'Changa', sans-serif;
+    padding: 15px 5px;
+    border: #27364c;
+    margin: 10px auto;
+    font-size: 21px;
+    border-radius: 5px;
+
+    background-color: #fff;
+}
+.login-form input:not([type="submit"]) {
+    padding: 11px 3px;
+    border: #27364c;
+    margin: 10px auto;
+    width: 270px;
+    font-size: 21px;
+    border-radius: 5px;
+    text-align: center;
+}
+@media (min-width: 780px) {
+
+    .login-form input:not([type="submit"]) {
+        width: 400px;
+    }
+}
+.login-form input[type="submit"] {
+    padding: 11px 16px;
+}
+/* prices styles
+###################################################### */
+.main-table {
+}
+.main-table td,
+.main-table th{
+    border: 2px solid #fff;
+    margin:0;
+    padding: 12px 44px;
+}
+@media (max-width: 680px) {
+   .main-table td,
+   .main-table th{
+        padding: 7px 7px;
+    }
+}
+/* sell-poiens styles
+###################################################### */
+.sell-points-ul .down {
+    width: 140px;
+    padding: 10px 5px ;
+    margin-top: 20px;
+}
+.sell-points-ul li {
+    padding: 10px;
+    width: 240px;
+    display: inline-block;
+}
+.number {
+    padding: 10px;
+    width: 240px;
+    margin: 25px auto;
+}
+footer a,
+footer a:hover,
+footer a:active,
+footer a:focus {
+    color: #fff;
+}
