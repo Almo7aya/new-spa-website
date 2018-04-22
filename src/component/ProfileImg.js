@@ -7,7 +7,7 @@ export default class ProfileImg extends Component {
 
   render() {
     return (<div className='ProfileImg'>
-      <img src={photo} alt="Ali Almohaya" />
+      <img src='https://avatars3.githubusercontent.com/u/17254073' alt="Ali Almohaya" />
     </div>);
   }
 
