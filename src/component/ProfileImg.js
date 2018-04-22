@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import '../styles/ProfileImg.css';
-import photo from '../imgs/photo.jpg';
 
 export default class ProfileImg extends Component {
 
