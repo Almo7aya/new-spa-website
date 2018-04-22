@@ -10,9 +10,14 @@ export default class Tags extends Component {
       <p>#React</p>
       <p>#Redux</p>
       <p>#Native</p>
-      <p>#Inoic</p>
+      <p>#Preact</p>
+      <p>#gn-rx</p>
       <p>#PWA</p>
+      <p>#Express</p>
+      <p>#MongoDB</p>
       <p>#Node.js</p>
+      <p>#Sass</p>
+      <p>#Freedom</p>      
     </div>);
   }
 
