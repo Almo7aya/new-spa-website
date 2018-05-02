@@ -20,6 +20,9 @@ export default class Footer extends Component {
         <a target='_target' href='https://fb.com/almo7aya' >
           <i className='fab fa-2x fa-facebook' />
         </a>
+        <a target='_target' href='https://twitter.com/ali_almohaya' >
+          <i className='fab fa-2x fa-twitter' />
+        </a>
         <a target='_target' href='https://codepen.io/almo7aya' >
           <i className='fab fa-2x fa-codepen' />
         </a>
