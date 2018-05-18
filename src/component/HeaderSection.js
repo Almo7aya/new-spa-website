@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import '../styles/HeaderSection.css';
+import resume from '../AliAlmohayaResume.pdf'
 
 export default class HeaderSection extends Component {
 
@@ -13,6 +14,8 @@ export default class HeaderSection extends Component {
       <h3>birth<span className='stat'>:</span> <span className='stat'>'</span>1996/12/15<span className='stat'>'</span>,</h3>
       <h3>based<span className='stat'>:</span> <span className='stat'>'</span>Yemen/Sanna<span className='stat'>'</span>,</h3>
       <p className='stat'>&#125;;</p>
+
+    <a href={resume} id='resume-btn'>Resume</a>
 
     </div>);
   }
